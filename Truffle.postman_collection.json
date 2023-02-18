@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "a983f3cf-1471-402a-b9fd-eaaeae9fc3f9",
+		"name": "Truffle",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13658619"
+	},
+	"item": [
+		{
+			"name": "GET ITEMS",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Add Items",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n                         \"hospital_name\": \"abc1\",\r\n                            \"date\": \"15042023\",\r\n                            \"name\": \"Tanmay\" ,\r\n                            \"address\" : \"ad123\",\r\n                            \"bill_amount\": 5000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/api/items",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"items"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
